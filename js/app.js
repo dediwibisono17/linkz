@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // new WOW().init();
+  new WOW().init();
   $('[data-toggle="tooltip"]').tooltip();
 
   $(".navbar-toggler").click(function () {
