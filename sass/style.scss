@@ -172,6 +172,8 @@ main {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 310px;
+        background: rgba($color: #000000, $alpha: 0.7);
+        padding: 4px;
         text-align: center;
         font-size: 32px;
       }
