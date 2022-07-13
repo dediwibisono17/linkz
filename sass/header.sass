@@ -1,0 +1,217 @@
+$color-orange: orange
+$color-blue: #444
+$primary: #85b8dc
+$primary-dark: #384089
+$primary-soft: #A8ADDB
+$max: 766px
+
+a
+    &:hover
+        text-decoration: none
+body
+    font-family: 'Lato','sans-serif' !important
+.navbar
+    // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px
+.bg-black
+    background: rgba(white, .9) !important
+    box-shadow: 0 3px 6px #bbb
+.sosmed
+    @media screen and ( max-width: $max )
+        margin-bottom: 8px
+    span
+        color: gray
+    i
+        font-size: 28px
+        margin: 0 8px
+        color: gray
+        transition: .3s
+        @media screen and ( max-width: $max )
+            float: left
+
+    .fa-facebook-square,.fa-envelope-o
+        &:hover
+            color: #4267B2
+    .fa-instagram
+        &:hover
+            color: #fb3958
+    .fa-whatsapp
+        &:hover
+            color: #25d366
+header
+    position: fixed
+    right: 0
+    left: 0
+    top: 0
+    z-index: 999
+    // border-bottom: 2px solid rgba(0,0 ,0 ,.8 )
+    .form-control
+        background-color: transparent
+        border-bottom: 1px solid white
+        &:focus
+            background-color: transparent
+            color: white
+
+    //  ::-webkit-input-placeholder
+    //     color: #fafafa !important
+
+    .btn-search
+        background-color: $color-orange
+        color: white
+        font-size: 14px
+        &:focus,
+        &:hover
+            color: white
+
+.navbar-collapse
+    top: 84px
+    @media screen and ( max-width: $max )
+        background: rgba(0, 0, 0, .5)
+        backdrop-filter: blur(8px)
+
+.ismobile
+    display: none !important
+    @media screen and ( max-width: $max )
+        display: block !important
+
+.isdekstop
+    display: block !important
+    @media screen and ( max-width: $max )
+        display: none !important
+
+.bg-dark
+    background-color: transparent !important
+    @media screen and ( max-width: $max )
+        // background-color: $color-blue
+        background: transparent
+
+.bg-scroll
+    // background: $color-blue
+    background: rgba(white, .3)
+    transition: .5s
+
+.disable-flag
+    filter: grayscale(100%)
+
+.flag
+    width: 30px
+    height: 30px
+    margin: 0 8px
+    border-radius: 50%
+    box-shadow: 0 3px 6px #bbb
+    img
+        width: 100%
+        border-radius: 50%
+        height: 100%
+        object-fit: cover
+
+.test
+    background: white
+    position: absolute
+    top: 50px
+    z-index: 999
+    bottom: 0
+
+@media (max-width: 776px)
+    .navbar-nav
+        margin-bottom: 16px
+        margin-left: 16px
+    .navbar-collapse
+        position: fixed
+        z-index: 9999
+        left: 0
+        padding-left: 15px
+        padding-right: 15px
+        padding-bottom: 15px
+        width: 90%
+        height: 100%
+        top: 50px
+
+    .navbar-collapse.collapsing
+        left: -100%
+        transition: height 0s ease
+
+    .navbar-collapse.show
+        left: 0
+        transition: left 300ms ease-in-out
+
+    .navbar-toggler.collapsed~.navbar-collapse
+        transition: left 500ms ease-in-out
+
+.logo
+    width: 100px
+    height: auto
+    margin-right: 16px
+    @media screen and ( max-width:  $max)
+        display: none
+header
+    font-family: 'Poppins'
+    .navbar-light
+        .navbar-nav
+            .nav-link
+                color: white
+                // font-weight: bold
+                font-size: 16px
+                &:hover
+                    color: $primary
+                @media screen and(max-width: $max)
+                    font-size: 20px
+
+.navbar-nav
+    .nav-item
+        &:last-child
+            @media screen and(max-width: $max)
+                position: absolute
+                bottom: 10%
+
+.navbar-light
+    .navbar-nav
+        .active
+            >.nav-link
+                font-weight: bold
+                border-bottom: 2px solid
+                width: fit-content
+                // text-decoration: underline
+                color: $primary !important
+                @media screen and(max-width: $max)
+                    font-weight: bold
+
+.header-sos
+    margin: 0 8px
+    i,
+    .text
+        font-size: 14px
+        color: #4a4a4a
+        font-weight: bold
+
+.image-logo
+    width: 124px
+    height: 68px
+    position: absolute
+    top: 0
+    img
+        width: 100%
+        height: 100%
+        object-fit: contain
+    &-mob
+        width: 120px
+        height: 58px
+        position: absolute
+        top: 0
+        left: 50%
+        img
+            width: 100%
+            height: 100%
+            object-fit: contain
+    &-footer
+        width: 160px
+        height: auto
+        img
+            width: 100%
+            height: 100%
+            object-fit: contain
+
+.navbar
+    background: rgba(0, 0, 0, .8)
+    // backdrop-filter: blur(8px)
+    // height: 20px
+    // height: 100%

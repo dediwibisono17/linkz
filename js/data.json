@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "title": "Toyota Astra Motor",
+    "img": "/lasertech/img/tam.png",
+    "challange": "Toyota want to have 360 customer view and complete user journey from online to offline. Toyota understand that by realising this, they can start to approach their customer differently by personalizing the contact. Lasertech and iProspect help Toyota to unify online and offline data by proposing them Customer Data Platform to collect all the data and analysing them.",
+    "strategy": ["Customer Data Platform Setup for Indonesia with 4.8mn Ids", "Offline Online ID unification with Collection, Cleansing and Analysis of Data", "Predictive Model Development and Customer Journey Analysis for Lead quality improvement", "Corporate dashboard development"]
+}, {
+    "id": 2,
+    "title": "Telkomsel",
+    "img": "/lasertech/img/telkomsel.png",
+    "challange": "PT. Telkomsel, Indonesia's largest mobile operator put their trust in iProspect to manage and identify their large scale subscribers and to maximize their digital spend.",
+    "strategy": ["Implement Google Analytics 360 across all owned digital assets", "Implement Google Optimize 360 in Telkomsel.com website and design personalization experiments", "First-party data segmentation and remarketing", "Targeted personalized ads", "Unified campaign performance channels with Google Data Studio", "Increased accuracy of transaction"]
+}, {
+    "id": 3,
+    "title": "Kompas Gramedia",
+    "img": "/lasertech/img/kompas.jpg",
+    "challange": "The largest online publisher group in Indonesia, Kompas.com and its subsidiaries aims to improve their sales of inventory through data monetization, and also e-commerce business through Gramedia.com.",
+    "strategy": ["Implement Google Analytics 360 in Kompas.com properties (website and mobile apps), and other Kompas Gramedia Group digital properties (Tribunnews, Grid Network, Kontan.id, Kompas.id, etc)", "Enable DoubleClick for Publisher integration with Kompas.com Google Analytics 360", "Build audience segments strategy  for monetization"]
+}]
